@@ -1,0 +1,394 @@
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url('../fonts/Gilroy-Regular.eot');
+  src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gilroy-Regular.woff') format('woff'),
+  url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerif';
+  src: url('../fonts/NotoSerif.eot');
+  src: url('../fonts/NotoSerif.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/NotoSerif.woff') format('woff'),
+  url('../fonts/NotoSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  max-width: 1920px;
+}
+
+.wrapper {
+  background-color: #E5E5E5;
+}
+
+.header {
+  height: 950px;
+  display: flex;
+  width: 100%;
+  flex: 0 0 auto;
+  background-image: url(../img/bgc.png);
+  background-position: center;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header__row {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header__logo img {
+  width: 216px;
+  height: 52px;
+}
+
+.label {
+  color: #fff;
+  font-family: 'Gilroy Regular', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 40px;
+}
+
+.header__left .label:last-child {
+  margin: 0;
+}
+
+.header__right .label:last-child {
+  margin: 0;
+}
+
+.header__account {
+  margin-right: 29.64px;
+}
+
+.header__log_in {
+  margin-right: 44px;
+}
+
+.header__left {
+  display: flex;
+  margin: 40px 126px 0 0;
+}
+
+.header__right {
+  display: flex;
+  margin: 40px 0 0 126px;
+}
+
+.header__logo {
+  margin: 25px 0 0 0;
+}
+
+.header__body {
+  margin: 523px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.header__title {
+  color: #fff;
+  font-family: 'Gilroy Regular', sans-serif;
+  font-size: 36px;
+  line-height: 49.03px;
+}
+
+.btn {
+  font-family: 'Gilroy Regular', sans-serif;
+  font-size: 18px;
+  line-height: 21.19px;
+  font-weight: 500;
+}
+
+.header__btn {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.btn button {
+  padding: 15px 35px;
+  background: inherit;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header hr {
+  height: 1px;
+  width: 1920px;
+  margin-top: 80px;
+}
+
+.header__footer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.header__item {
+  padding-right: 15px;
+  border-right: 1px solid #fff;
+  margin-right: 15px;
+}
+
+.header__item:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 21px;
+  line-height: 29.4px;
+  font-family: 'Gilroy Regular', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-family: 'NotoSerif', serif;
+  font-size: 30px;
+  line-height: 40.86px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.event {
+  background: #E5E5E5;
+  font-family: 'Gilroy Regular', sans-serif;
+  padding-top: 100px;
+  height: 1170px;
+}
+
+.event__title {
+  margin-top: 15px;
+}
+
+.event__whom {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.whom__item {
+  width: 165px;
+  height: 55px;
+  text-align: center;
+  padding-top: 17px;
+
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21.19px;
+  border: 1px solid #F9F9F9;
+  color: #333333;
+}
+
+.active {
+  background-color: #333333;
+  color: #fff;
+}
+
+.what__block {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.what__item {
+  width: 350px;
+  height: 280px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.what__rings {
+  background-image: url(../img/кольца.png);
+  background-position: center;
+}
+
+.what__earrings {
+  background-image: url(../img/серьги.png);
+  background-position: center;
+}
+
+.what__pendants {
+  background-image: url(../img/подвески.png);
+  background-position: center;
+  margin: 0;
+}
+
+.what__cufflinks {
+  background-image: url(../img/запонки.png);
+  background-position: center;
+}
+
+.what__bracelets {
+  background-image: url(../img/браслеты.png);
+  background-position: center;
+}
+
+.what__clock {
+  background-image: url(../img/часы.png);
+  background-position: center;
+}
+
+.what__item p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28.5px;
+  margin-top: 222px;
+  font-weight: 500;
+}
+
+.visit {
+  background-image: url(../img/bg2.png);
+  background-position: center;
+  height: 541px;
+  color: #fff;
+  font-family: 'Gilroy Regular', sans-serif;
+  padding: 100px 0 0 0;
+}
+
+.visit__title {
+  margin-top: 15px;
+  color: #fff;
+}
+
+.visit__text {
+  font-size: 18px;
+  line-height: 25.2px;
+  margin: 45px 0 0 0;
+}
+
+.visit__text p {
+  height: 100px;
+  width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.visit__btn {
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+.visit__btn button {
+  background-color: #fff;
+  color: #333333;
+  font-size: 18px;
+  line-height: 21.19px;
+}
+
+.tips {
+  padding: 120px 0 0 0;
+}
+
+.tips__title {
+  margin: 15px 0 0 0;
+}
+
+.tips__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.tips__card {
+  width: 350px;
+  height: 370px;
+}
+
+.card__1 {
+  background-image: url(../img/1.png);
+  background-position: center;
+}
+
+.card__2 {
+  background-image: url(../img/2.png);
+  background-position: center;
+}
+
+.card__3 {
+  background-image: url(../img/3.png);
+  background-position: center;
+}
+
+.tips__card p {
+  height: 87px;
+  width: 154px;
+  margin: 248px auto 0 auto;
+  text-align: center;
+
+  color: #fff;
+  font-size: 21px;
+  font-family: 'Gilroy Regular', sans-serif;
+  line-height: 29.4px;
+}
+
+.tips__btn {
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+.tips__btn button {
+    background-color: #333333;
+    width: 255px;
+    height: 51px;
+}
+
+.social {
+  padding: 120px 0 150px 0;
+}
+
+.social__title {
+  margin-top: 15px;
+}
+
+.social__media {
+  margin-top: 60px;
+}
+
+.media__block_1, .media__block_2 {
+  display: flex;
+}
+
+.email {
+  background-image: url(../img/bg2.png);
+  background-position: center;
+
+  padding: 100px 0 0 0;
+
+  color: #fff;
+  font-family: 'Gilroy Regular', sans-serif;
+}
+
+.email__title {
+  color: #fff;
+  margin-top: 15px;
+}
+
+ul li::before {
+  background-image: url(../img/Polygon 2.svg);
+}
+
+.email__wrapper {
+  display: flex;
+}
