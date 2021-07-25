@@ -54,6 +54,11 @@ body {
   width: 100%;
 }
 
+.link {
+  text-decoration: none;
+  color: #333333;
+}
+
 .header__logo img {
   width: 216px;
   height: 52px;
@@ -397,8 +402,9 @@ body {
   line-height: 25.2px;
 }
 
-ul li::before {
-  list-style-image: url(../img/значок.png);
+.email__benefits li {
+  background: url(../img/значок.png) 0 1px no-repeat;
+  padding: 0 0 0 20px;
 }
 
 .email__border {
@@ -429,4 +435,81 @@ ul li::before {
   height: 45px;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.footer {
+  color: #333333;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Gilroy Regular', sans-serif;
+
+  padding-top: 80px;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__subtitle {
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer__block {
+  width: 250px;
+}
+
+.footer__body {
+  margin-top: 30px;
+}
+
+.footer__body a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.footer__cards img {
+  display: inline;
+  margin-right: 20px;
+  margin-top: 21px;
+}
+
+.footer__cards img:first-child {
+  margin-right: 20px;
+}
+
+.footer__phone img, .footer__email img {
+  display: inline;
+}
+
+.footer__phone {
+  margin-bottom: 15px;
+}
+
+.footer__social {
+  margin-top: 27.04px
+}
+
+.footer__social a {
+  display: inline;
+  margin-right: 27px;
+}
+
+.footer__social img {
+  display: inline;
+}
+
+.divide {
+  margin-top: 60px;
+}
+
+.footer__for {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
 }
